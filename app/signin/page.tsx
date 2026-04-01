@@ -133,7 +133,7 @@ export default function SignIn() {
           </div>
 
           {/* Sign Up Link */}
-          <Link href="/admin/signup" className="block w-full text-center bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold py-3 rounded-lg transition-colors duration-200">
+          <Link href="/signup" className="block w-full text-center bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold py-3 rounded-lg transition-colors duration-200">
             Create an Account
           </Link>
 

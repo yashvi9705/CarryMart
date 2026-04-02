@@ -23,7 +23,7 @@ export default function Header({ cartCount, cartTotal = 0, onCartClick, favorite
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 flex-shrink-0">
             <span className="text-2xl font-bold">
-              <span className="text-blue-900">Cash</span><span className="text-yellow-400">Carry</span>
+              <span className="text-blue-900">Mart</span><span className="text-yellow-400">Carry</span>
             </span>
           </Link>
 

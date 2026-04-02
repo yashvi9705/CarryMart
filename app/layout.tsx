@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({ subsets: ["latin"], variable: '--font-mono' });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: '--font-serif' });
 
 export const metadata: Metadata = {
-  title: 'CashCarry - Fast Delivery',
+  title: 'CarryMart',
   description: 'Get your essentials delivered quickly',
   icons: {
     icon: [

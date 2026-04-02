@@ -51,7 +51,11 @@ export async function POST(req: NextRequest) {
       { status: 200 }
     )
   } catch (error) {
-    console.error('Sign in error:', error)
+    if (error instanceof Error) {
+      console.error('Sign in error:', error.stack || error.message)
+    } else {
+      console.error('Sign in error:', error)
+    }
     return NextResponse.json(
       { error: 'Internal server error' },
       { status: 500 }

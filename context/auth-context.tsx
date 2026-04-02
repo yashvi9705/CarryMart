@@ -221,7 +221,6 @@ export interface User {
   address?: string
   profilePicture?: string
   theme?: 'light' | 'dark'
-  is_admin?: boolean 
 }
 
 interface AuthContextType {

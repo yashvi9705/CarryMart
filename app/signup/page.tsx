@@ -62,7 +62,7 @@ export default function SignUp() {
               <UserPlus className="w-8 h-8 text-blue-800" />
             </div>
             <h1 className="text-3xl font-bold text-blue-900 mb-2">Create Account</h1>
-            <p className="text-gray-600">Join CarryCash and start shopping</p>
+            <p className="text-gray-600">Join CarryMart and start shopping</p>
           </div>
 
           {/* Error Message */}

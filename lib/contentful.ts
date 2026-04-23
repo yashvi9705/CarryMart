@@ -67,7 +67,6 @@ export async function getProductsByCategory(
     const entries = await contentfulClient.getEntries({
       content_type: 'products',
       'fields.category': categoryName,
-      limit: 1000,
       include: 2,
     });
     return entries.items as unknown as ContentfulProduct[];
@@ -109,7 +108,6 @@ export async function getProducts(): Promise<ContentfulProduct[]> {
   try {
     const entries = await contentfulClient.getEntries({
       content_type: 'products',
-      limit: 1000,
       include: 2,
     });
     return entries.items as unknown as ContentfulProduct[];
@@ -142,7 +140,6 @@ export async function getCategories(): Promise<ContentfulCategory[]> {
   try {
     const entries = await contentfulClient.getEntries({
       content_type: 'category',
-      limit: 1000,
     });
     return entries.items as unknown as ContentfulCategory[];
   } catch (error) {

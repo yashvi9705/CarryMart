@@ -57,7 +57,7 @@ export default function SignIn() {
               <LogIn className="w-8 h-8 text-blue-900" />
             </div>
             <h1 className="text-3xl font-bold text-blue-900 mb-2">Sign In</h1>
-            <p className="text-gray-600">Welcome back to CarryCash</p>
+            <p className="text-gray-600">Welcome back to CarryMart</p>
           </div>
 
           {/* Error Message */}
@@ -128,7 +128,7 @@ export default function SignIn() {
           {/* Divider */}
           <div className="my-6 flex items-center gap-3">
             <div className="flex-1 bg-gray-200 h-px" />
-            <span className="text-gray-500 text-sm">New to CarryCash?</span>
+            <span className="text-gray-500 text-sm">New to CarryMart?</span>
             <div className="flex-1 bg-gray-200 h-px" />
           </div>
 

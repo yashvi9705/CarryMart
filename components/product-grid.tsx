@@ -49,7 +49,7 @@ export default function ProductGrid({
       </div> */}
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {products.slice(0, 6).map(product => {
+        {products.map(product => {
           const quantitys = cart[product.id] || 0
           // const savings = product.originalPrice - product.salePrice
           const isFavorited = favorites[product.id] || false
